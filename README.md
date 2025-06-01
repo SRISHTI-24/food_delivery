@@ -34,5 +34,7 @@ The system is divided into three microservices:
 Each microservice runs independently. Example for running a FastAPI service:
 
 ```bash
-cd user_service (8001)  # or resturant_service (8000) / delivery_service (8002)
-python -m uvicorn main:app --reload --port 8000  # Change port per service
+user_service (8001)  # or resturant_service (8000) / delivery_service (8002)
+python -m uvicorn <any_service>.main:app --reload --port <port_no> # Change port per service
+e.g., for User_service
+"python -m uvicorn user_service.main:app --reload --port 8001"
