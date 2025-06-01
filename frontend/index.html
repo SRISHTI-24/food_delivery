@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Food Delivery App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Food Delivery - User Interface</h1>
+
+    <section>
+      <h2>1. Get Available Restaurants</h2>
+      <input type="number" id="hourInput" placeholder="Enter hour (0-23)" />
+      <button onclick="getResturants()">Fetch Restaurants</button>
+      <ul id="resturantList"></ul>
+    </section>
+
+    <section>
+      <h2>2. Place Order</h2>
+      <textarea id="orderJson" rows="6" placeholder='Enter order JSON here'></textarea>
+      <button onclick="placeOrder()">Place Order</button>
+      <p id="orderResponse"></p>
+    </section>
+
+    <section>
+      <h2>3. Submit Rating</h2>
+      <textarea id="ratingJson" rows="6" placeholder='Enter rating JSON here'></textarea>
+      <button onclick="submitRating()">Submit Rating</button>
+      <p id="ratingResponse"></p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
