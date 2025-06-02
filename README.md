@@ -95,7 +95,6 @@ python -m user_service.main:app --reload --port 8001
 
 | Method | Endpoint                            | Description                          |
 |--------|-------------------------------------|--------------------------------------|
-| GET    | `/available-agents`                 | List available delivery agents       |
 | PUT    | `/update-status`                    | Update delivery status               |
 
 ### Postman Collections
