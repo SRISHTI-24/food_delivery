@@ -98,6 +98,10 @@ python -m user_service.main:app --reload --port 8001
 | GET    | `/available-agents`                 | List available delivery agents       |
 | PUT    | `/update-status`                    | Update delivery status               |
 
+### Postman Collections
+API ENDPOINTS
+https://www.postman.com/flight-operator-78284705/food-delivery-kraftbase/collection/oiq7ycv/food-delivery?action=share&creator=42241536
+
 
 ## 🧾 License
 
