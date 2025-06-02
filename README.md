@@ -81,7 +81,7 @@ python -m user_service.main:app --reload --port 8001
 
 | Method | Endpoint                        | Description                                 |
 |--------|----------------------------------|--------------------------------------------|
-| POST   | `/menu`                          | Display whole menu                         |
+| POST   | `/menu`                          | Create menu items whole menu               |
 | GET    | `/menu/{resturant_id}`           | Display menu of particular resturant       |
 | POST   | `/menu/{resturant_id}/{item_id}` | Update menu                                |
 | POST   | `/menu/{item_id}`                | Delete item                                |
