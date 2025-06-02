@@ -84,7 +84,7 @@ python -m user_service.main:app --reload --port 8001
 | POST   | `/menu`                          | Create menu items.           |
 | GET    | `/menu/{resturant_id}`           | Display menu of particular resturant       |
 | POST   | `/menu/{resturant_id}/{item_id}` | Update menu                                |
-| POST   | `/menu/{item_id}`                | Delete item                                |
+| POST   | `/menu/{resturant_id}/{item_id}` | Delete item                                |
 | GET    | `/pending-orders`                | View pending orders                        |
 | POST   | `/orders/{order_id}/accept`      | Accept an order & autoassign deliver agent |
 | POST   | `/orders/{order_id}/reject`      | Reject an order                            |
